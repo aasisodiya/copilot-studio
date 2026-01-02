@@ -48,9 +48,9 @@
 
 6. How to add variable to text block of adaptive card?
 
-   - In properties of Adaptive Card, You have a drop down to select either `Formula card` or `JSON card`.
+   - In the Adaptive Card properties, use the drop-down to select either `Formula card` or `JSON card`.
    - For now only `Formula card` will allow variable. So select `Formula card`
-   - Now go to the `text` proeprty of the one you want to add variable to
+   - Now go to the `text` property of the element where you want to add the variable.
    - Now to add a variable you need to append it as `& Topic.Variable`
    - Example: `text :"Thank You. Stay safe"` becomes `text: "Thank You " & Topic.Variable & ". Stay safe"`
 
@@ -59,5 +59,5 @@
    - Every agent has two types of Topics:
      - Custom Topics
      - System Topics
-   - Some of which are default and enabled by default.
-   - So you need to manually select and disable the one which you don't need.
+   - Some of these topics are enabled by default.
+   - Therefore, you need to manually disable any topics you don't need.
